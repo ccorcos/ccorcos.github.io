@@ -1,0 +1,14 @@
+# Site settings
+title: Chet Corcos
+author: Chet Corcos
+email: ccorcos@gmail.com
+description: >
+  Personal website of the one and only Chet Corcos
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://chetcorcos.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]

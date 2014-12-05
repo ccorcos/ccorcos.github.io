@@ -1,0 +1,61 @@
+<div>
+  <div class="wi-100 mw7 center db ptl">
+    <div class="db">
+      <div class="db fr ptm">
+        {% for p in site.pages %}
+        {% if p.title %}
+          <div class="di prm">
+            <a class="link
+              {% if p.url == page.url %}
+                b
+              {% endif %}
+              {% if p.name == 'blog.html' and page.categories contains 'blog' %}
+                b
+              {% endif %}
+              {% if p.name == 'projects.html' and page.categories contains 'projects' %}
+                b
+              {% endif %}"
+              href="{{p.url | prepend: site.baseurl}}">
+              {{p.title}}
+            </a>
+          </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      <h1 class="normal">
+        <a class="link {% if '/' == page.url %} b {% endif %}" href="{{site.baseurl}}/">{{ site.title }}</a>
+      </h1>
+    </div>
+  </div>
+
+
+  {% if page.name == 'blog.html'%}
+    <img class="wi-100" src="/img/panos/heavenly.png" alt="" />
+  {% endif %}
+
+  {% if page.categories contains 'blog' %}
+    <img class="wi-100" src="/img/panos/heavenly.png" alt="" />
+  {% endif %}
+
+
+
+{% if page.name == 'projects.html'%}
+  <img class="wi-100" src="/img/panos/tahoe_purple.jpg" alt="" />
+{% endif %}
+
+<!-- {% if page.categories contains 'projects' %}
+  <img class="wi-100" src="/img/panos/tahoe_purple.jpg" alt="" />
+{% endif %} -->
+
+
+
+  {% if page.name == 'research.md' %}
+    <img class="wi-100" src="/img/panos/venice.jpg" alt="" />
+  {% endif %}
+
+
+
+  {% if page.name == 'resume.md' %}
+  {% endif %}
+
+</div>

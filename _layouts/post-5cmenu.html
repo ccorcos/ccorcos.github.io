@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="wi-100 mw65 center db ptl">
+  <h1 class="">{{ page.title }}</h1>
+  <p class=""> {{ page.date | date: "%B %-d, %Y" }}</p>
+  <p class="">
+    {% if page.author %}
+    {{ page.author }}
+    {% endif %}
+  </p>
+  {{ content }}
+</div>
+
+<div class="ofx-scr ws-nowrap tc">
+  <img class="tall-img" src="/img/mudd.jpg">
+  <img class="tall-img" src="/img/scripps.jpg">
+  <img class="tall-img" src="/img/pitzer.jpg">
+  <img class="tall-img" src="/img/cmc.jpg">
+  <img class="tall-img" src="/img/pomona.jpg">
+</div>

@@ -1,0 +1,24 @@
+{
+  "name": "chetcorcos.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-imagemin": "^2.0.0",
+    "imagemin-pngquant": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccorcos/ccorcos.github.io.git"
+  },
+  "author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccorcos/ccorcos.github.io/issues"
+  },
+  "homepage": "https://github.com/ccorcos/ccorcos.github.io"
+}

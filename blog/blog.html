@@ -1,0 +1,23 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="wi-100 mw65 center db ptl">
+  {% for post in site.posts %}
+  {% if post.categories contains 'blog' %}
+
+  <div class="db pbl">
+    <div class="db fr">
+      <span class="f5 gray">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    <div class="">
+      <a class="f4 link underline-hover" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </div>
+  </div>
+
+  {% endif %}
+  {% endfor %}
+
+</div>
