@@ -12,3 +12,5 @@ markdown: kramdown
 
 kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
+
+exclude: [node_modules]

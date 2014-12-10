@@ -1,9 +1,32 @@
 body {
   min-height:100%;}
 
+
+@font-face {
+  font-family: myriadpro;
+  src: url('/fonts/myriadpro-regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriadpro';
+  src: url('/fonts/myriadpro-regular.eot'); /* IE */  
+  src: local('myriadpro'), url('/fonts/myriadpro.otf') format('opentype'); /* non-IE */
+}
+
+/*@font-face {
+  font-family: 'myriadpro-bold';
+  src: url('/fonts/myriadpro-bold.eot');    
+  src: local('myriadpro'), url('/fonts/myriadpro.otf') format('opentype'); 
+}*/
+
+.myriadpro {
+  font-family: myriadpro;
+}
+
 .mw65 {
   max-width: 40rem; }
-
 
 .desktop {
   display: block;
