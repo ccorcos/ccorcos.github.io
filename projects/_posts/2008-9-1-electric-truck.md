@@ -7,7 +7,7 @@ After two summers interning at UC Davis building plug-in hybrid-electric vehicle
 
 ![](/img/etruck/done.jpg)
 
-This was a long and frustrating project. We figured things out my calling up manufacturers of different parts and asking how to use them! Most of the parts came from [Canada Electric Vehicles Ltd.](http://www.canev.com)
+This was a long and frustrating project. We figured things out my calling up manufacturers of different parts and asking how to use them! Most of the parts came from [Canada Electric Vehicles Ltd.](http://www.canev.com){: .link}
 
 First, we stripped the car of anything that wasn't needed: the gas tank, exhaust pipes, engine, etc.
 
