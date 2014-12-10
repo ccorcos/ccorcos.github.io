@@ -28,6 +28,10 @@ body {
   display: block;
 }
 
+.banner {
+  -webkit-overflow-scrolling: touch;
+}
+
 .heavenly {
   background: url('/img/panos/heavenly.png');
   background-size: cover;
