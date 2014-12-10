@@ -1,3 +1,6 @@
+responsive panoramas.
+overflow hidden and dont stretch but center...
+
 
 `bundle exec jekyll serve`
 `gulp compress`

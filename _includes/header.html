@@ -58,17 +58,21 @@
   </div>
 
 
+  <div class="pano-wrapper">
   {% if page.name == 'blog.html'%}
+    <div class="small-pano heavenly"></div>
     <img class="pano" src="/img/panos/heavenly.png" alt="" />
   {% endif %}
 
   {% if page.categories contains 'blog' %}
+    <div class="small-pano heavenly"></div>
     <img class="pano" src="/img/panos/heavenly.png" alt="" />
   {% endif %}
 
 
 
   {% if page.name == 'projects.html'%}
+    <div class="small-pano purple-tahoe"></div>
     <img class="pano" src="/img/panos/tahoe_purple.jpg" alt="" />
   {% endif %}
 
@@ -79,9 +83,11 @@
 
 
   {% if page.name == 'research.md' %}
+    <div class="small-pano venice"></div>
     <img class="pano" src="/img/panos/venice.jpg" alt="" />
   {% endif %}
 
+  </div>
 
 
   {% if page.name == 'resume.md' %}
