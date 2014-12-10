@@ -21,8 +21,7 @@ We used 20 6V deep cycle marine batteries wired in series to get 120V DC power. 
 
 ![](/img/etruck/batteries.jpg)
 
-
-We also beefed up the suspension with some air shocks to hold the extra weight (~ 1/2 ton) of the batteries.
+We also beefed up the suspension with some air bags to hold the extra weight (~ 1/2 ton) of the batteries.
 
 ![](/img/etruck/shocks.jpg)
 
@@ -43,7 +42,7 @@ We had many frustrating hours staring at diagrams and calling manufacturers.
 
 ![](/img/etruck/thinking.jpg)
 
-Eventually, it powered up. Luckily, we had the truck on stands because the potentiometer for the accelerator was backwards. We hadn't wired it wrong -- the internal spring pulls the lever in the full throttle direction! Once we fixed that, the truck was ready for it's maiden voyage.
+Eventually, it powered up. Luckily, we had the truck on stands because the potentiometer for the accelerator was backwards. We hadn't wired it wrong -- the internal throttle spring pulls the lever in the full throttle direction! Once we fixed that, the truck was ready for it's maiden voyage.
 
 <div class="video">
 <iframe width="420" height="315" src="//www.youtube.com/embed/ufjlHxnmjWQ" frameborder="0" allowfullscreen></iframe>
