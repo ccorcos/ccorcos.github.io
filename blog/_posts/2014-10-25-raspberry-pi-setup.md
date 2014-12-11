@@ -45,7 +45,14 @@ To edit the cron jobs, use the following command.
 There are all kinds of fun and useful things you can do with this. For example, you can user my [Craigslist Watch](https://github.com/ccorcos/craigslist-watch){: .link} program to parse through apartments on craigslist every day and send you an email with the results.
 
     # Craigslist Script
-    0 18 * * * python /home/pi/programs/craigslist-watch/craigslist.py
+    0 18 * * * cd /home/pi/programs/craigslist-watch/ && python craigslist.py
+
+Note that its a good idea to `cd /path/to/dir/ && python program.py` just in case your program is importing any files from the same directory.
+
+You can also setup an [internet speed logger that tests your internet speed every hour](https://github.com/ccorcos/internet-speed-log){: .link}. This way, you can call up your internet service provider and get your internet bill prorated for the sluggish internet speeds below their quoted rate!
+
+    # Speedtest
+    0 * * * * cd /home/pi/programs/internet-speed-log/ && python speedtest.py
 
 Or you could setup a cron job to [check-in to your Southwest Airlines flight exactly 24 hours before the flight so you get an A boarding pass](https://github.com/ccorcos/southwest-checkin){: .link}.
 
