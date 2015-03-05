@@ -164,3 +164,20 @@ blockquote > :last-child {
 .link.no-under.underline-hover:hover {
   text-decoration: underline;
 }
+
+a {
+  text-decoration: underline;
+  -webkit-transition: color 0.175s ease-in;
+  transition: color 0.175s ease-in; }
+
+a:link, a:visited {
+  color: #2D243B; }
+
+a:hover {
+  color: #999999; }
+
+a:active {
+  color: #C4E3E0; }
+
+a:focus {
+  color: #2D243B; }

@@ -1,0 +1,184 @@
+{
+  "name": "Chet Corcos",
+  "email": "ccorcos@gmail.com",
+  "github": "ccorcos",
+  "website": "http://www.chetcorcos.com",
+  "phone": "+19165489415",
+  "address": "21 St James Park, Los Angeles, CA 90007",
+  "education": [{
+    "school": "University of Southern California",
+    "degree": "Masters in Computer Science",
+    "gpa": "3.5",
+    "when": "August 2015",
+    "where": "Los Angeles, CA",
+    "notes": [
+      "<a href='http://robotics.usc.edu/resl/people/59/'>Robotic Embedded Systems Lab (RESL)</a>"
+    ],
+    "courses": [
+      "Machine Learning",
+      "Probabilistic Graphical Models",
+      "Advanced Analysis of Algorithms"
+    ]
+  },{
+    "school": "Harvey Mudd College",
+    "degree": "Bachelor of Science in Engineering",
+    "gpa": "3.7",
+    "when": "May 2013",
+    "where": "Claremont, CA",
+    "notes": [
+      "Dean's List: Spring 2010 - Spring 2013",
+      "Tau Beta Pi: Engineering Honor Society",
+      "Norin Memorial Scholarship Recipient for Communications Engineering and Related Fields (SP 2012)"
+    ],
+    "courses": [
+      "Differential Equations",
+      "Multivariable Calculus",
+      "Linear Algrbra",
+      "Special Relativity",
+      "Elecromagnetism",
+      "Continuum Mechanics",
+      "Control Systems",
+      "Microprocessor Design",
+      "Communication Systems",
+      "Numerical Methods"
+    ]
+  }],
+  "publications": [{
+    "title":"Towards Interactive Object Recognition",
+    "authors": "Karol Hausman, Chet Corcos, Joerg Mueller, Fei Sha, Gaurav Sukhatme",
+    "journal": "IROS 2014 3rd Workshop on Robots in Clutter: Perception and Interaction in Clutter, 2014.",
+    "url": "/img/ior-iros2014.pdf"
+  }],
+  "professional": [{
+    "institution": "SpaceX",
+    "title": "Avionics Intern",
+    "where": "Hawthorne, CA",
+    "when": "Summer 2013",
+    "notes": [
+      "Designed pan-tilt control system for a custom laser scanning infrared range finder (LiDAR).",
+      "Designed calibration and simulation rigs in CAD along with engineering drawings for machining and prototyped with 3D printing."
+    ]
+  },{
+    "institution": "Aura Labs",
+    "title": "Software Developer and Bio-signal Analyst",
+    "where": "Tustin, CA",
+    "when": "Summer 2012",
+    "notes": [
+      "Developed an iPhone App involving Bluetooth communication and GPS tracking.",
+      "Used frequency domain tools for heart beat detection from an infrared sensor."
+    ]
+  }],
+  "research": [{
+    "institution": "USC Robotic Embedded Systems Lab",
+    "title": "PhD Candidate",
+    "where": "Los Angeles, CA",
+    "when": "Fall 2013 - Summer 2015",
+    "notes": [
+      "Smoothing and Mapping (SAM) simulations with heterogeneous multi-robot teams.",
+      "Probabilistic graphical model for robotic interactive object recognition.",
+      "Deep learning library and tools for experimenting with nerual networks."
+    ]
+  },{
+    "institution": "UC Davis Center for Neuroscience",
+    "title": "intern",
+    "where": "Davis, CA",
+    "when": "Summer 2011",
+    "notes": [
+      "Wrote MATLAB scripts using EEGLab toolbox for analyzing inter-cranial brain signals from rats and humans."
+    ]
+  }],
+  "projects": [{
+    "title": "<a href='/projects/2008/09/01/electric-truck.html'>Electric Truck Conversion</a>",
+    "where": "Fair Oaks, CA",
+    "when": "Summer 2008",
+    "notes": [
+      "Built an electric truck using the body, chassis and manual transmission of a 1999 S-10 with a blown engine.",
+      "Installed power brakes, power steering, welded battery trays, designed 12V and 120V circuits."
+    ]
+  },{
+    "title": "High Power Rockets",
+    "where": "Harvey Mudd College, CA",
+    "when": "Fall 2010",
+    "notes": [
+      "Built and flew high-powered rockets (I-motors) with custom sensor payload.",
+      "Designed and built a protoboard with a data-logger, 3-directional gyroscopes, and 3-directional accelerometers.",
+      "Developed a 6 DOF model in MATLAB for determining the rocket’s 3D position and orientation throughout flight."
+    ]
+  },{
+    "title": "<a href='/projects/2014/12/18/5c-menu-round-2.html'>5C Menu iPhone App</a>",
+    "when": "December 2014",
+    "notes": [
+      "Designed and built a Cordova iPhone app with Meteor.",
+      "Displays the dining hall menus for the Claremont Colleges."
+    ] 
+  },{
+    "title": "<a href='/projects/2014/02/22/rsa-tutorial.html'>RSA Encryption Demo</a>",
+    "when": "February 2014",
+    "notes": [
+      "Implemented RSA encrytion with Python.",
+      "Created a demo that explains how RSA works."
+    ]
+  },{
+    "title": "<a href='/projects/2014/03/11/password-rhythm.html'>Password Rhythm Authentication</a>",
+    "when": "Fall 2013",
+    "notes": [
+      "An algorithm for authenticating users based on their typing rhythm."
+    ]
+  },{
+    "title": "<a href='/projects/2015/01/05/guitar-tuner.html'>Web Audio Guitar Tuner</a>",
+    "when": "January 2015",
+    "notes": [
+      "Built a guitar tuner in your browser using the the Web Audio API",
+    ]
+  },{
+    "title": "<a href='/projects/2013/10/10/facebook-network.html'>D3 Network Visualization</a>",
+    "when": "October 2013",
+    "notes": [
+      "Build a reactive Force Layout visualization with Meteor.",
+      "Downloaded and visualized my facebook social graph."
+    ]  
+  },{
+    "title": "<a href='/projects/2015/02/07/observable-streams.html'>Observable Streams Meteor Package</a>",
+    "when": "February 2015",
+    "notes": [
+      "Implemented an observable streams library using Meteor's reactive library, Tracker."
+    ]
+  },{
+    "title": "<a href='https://www.youtube.com/watch?v=zAJ6muAZdX4&feature=player_embedded'>OpenCV Eye Tracker</a>",
+    "when": "Spring 2011",
+    "notes": [
+      "Built an eye tracker using OpenCV."
+    ]
+  },{
+    "title": "MIPS Multicycle Processor Implementation",
+    "when": "Spring 2011",
+    "notes": [
+      "Implemented a MIPS 8-bit processor in System Verilog on an FPGA."
+    ]
+  },{
+    "title": "Classic Car Restoration",
+    "when": "2007-2010",
+    "notes": [
+      "<a href='/projects/2007/09/01/1965-mailibu.html'>Restored a 1965 Chevrolet Malibu for my first car with my father.</a>",
+      "<a href='/projects/2010/01/01/1971-blazer.html'>Restored a 1971 Chevrolet Blaze with my father during winter break.</a>"
+    ]  
+  }],
+  "skills": [
+    "Python (Theano, Numpy, iPython)",
+    "JavaScript (Meteor.js, Node.js, d3.js, React.js, Cordova, Coffeescript)",
+    "MATLAB",
+    "C",
+    "C++ (OpenCV)",
+    "CAD (NX 7.5, OpenSCAD)",
+    "iOS (Objective-C, Swift)",
+    "Lisp",
+    "Prolog",
+    "Java",
+    "System Verilog",
+    "3D Printing",
+    "Machine Shop",
+  ],
+}
+
+// missing: topographic map printing
+// taxes app, pickups app, stdinla app

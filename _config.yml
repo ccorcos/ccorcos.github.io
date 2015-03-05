@@ -14,3 +14,10 @@ kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
 
 exclude: [node_modules]
+
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+# Syntax highlighting
+highlighter: pygments

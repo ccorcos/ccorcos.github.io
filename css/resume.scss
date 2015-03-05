@@ -1,0 +1,188 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$mobileBreak: 600px;
+$tabletBreak: 1000px;
+$headerHeight: 150px;
+$pad: 15px;
+$headerIconHeight: 50px;
+
+* {
+  box-sizing: border-box;
+}
+
+.entypo.link {
+  text-decoration: none;
+}
+
+.resume {
+  position:relative;
+
+  .contact {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    height: $headerHeight;
+
+    @media screen and (max-width: $mobileBreak) {
+      height: $headerHeight + $headerIconHeight;
+    }
+
+    background-color: #222;
+    color: white;
+
+    .inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      position: relative;
+      height: 100%;
+
+      div {
+        display: inline-block;
+      }
+
+      .name {
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        a:hover {
+          color: #999999; }
+
+        font-size: 50px;
+        font-weight: 100;   
+        position: absolute;
+        bottom: 0;
+        left: $pad;
+        @media screen and (max-width: $mobileBreak) {
+          bottom: $headerIconHeight;
+        }
+      }
+
+      .icons {
+        position: absolute;
+        right: $pad;
+        bottom: $pad;
+        
+        @media screen and (max-width: $mobileBreak) {
+          left: $pad;
+        }
+        a {
+          color: white;
+          -webkit-transition: color 0.175s ease-in;
+          transition: color 0.175s ease-in; }
+
+        a:hover {
+          color: #999999; }
+
+      }
+    }
+    
+  }
+  .section {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    .header {
+      vertical-align: top;
+      width: 20%;
+      display: inline-block;
+      text-align: right;
+      padding: $pad;
+      font-size: 20px;
+      text-transform: uppercase;
+      @media screen and (max-width: $tabletBreak) {
+        width: 100%;
+        text-align: left;
+        font-weight: 600;
+        font-size: 28px;
+        padding-bottom: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+    .content {
+      padding: $pad;
+      display: inline-block;
+      width: 79%;
+      .content-item {
+        position: relative;
+        padding-bottom: 30px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      @media screen and (max-width: $tabletBreak) {
+        width: 100%; 
+      }
+
+      .title {
+        font-size: 20px;
+        display: inline-block;
+      }
+
+      .subtitle {
+        font-style: italic; 
+        font-size: 12px;
+        // display: inline-block;
+        // padding-left: 10px;
+      }
+    }
+  }
+  .rest {
+    position: absolute;
+    top: $headerHeight;
+    left: 0;
+    right: 0;
+    @media screen and (max-width: $mobileBreak) {
+      top: $headerHeight + $headerIconHeight;
+    }
+    .whenwhere {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 14px;
+      padding-top: 6px;
+      text-align: right;
+      @media screen and (max-width: $mobileBreak) {
+        position: relative;
+        height: auto;
+        padding-top: 0;
+        font-size: 12px;
+        text-align: left;
+      }
+      .when {
+        // font-style: italic; 
+        font-size: 12px;
+      }
+    }
+  }
+  .school {
+    .gpa {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .courses, .notes {
+      font-size: 14px;
+    }
+    .courses-header {
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+}
+
+#skills {
+  .content {
+    ul {
+      margin-top: 0;
+    }
+  }
+}
+
+// @media print {
+//   /* insert your style declarations here */
+// }
