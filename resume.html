@@ -36,7 +36,7 @@ permalink: /resume/
             <div class="subtitle">{{x.degree}}</div>
             <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
             <div class="gpa">GPA: {{x.gpa}}</div>
-            {% if e.notes %}
+            {% if x.notes %}
               <ul class="notes">
                 {% for note in x.notes %}
                   <li class="note">{{note}}</li>
@@ -60,7 +60,7 @@ permalink: /resume/
       <div class="content">
         {% for x in site.data.resume.publications %}
           <div class="pub">
-            <a href="{{p.url}}">
+            <a href="{{x.url}}">
               <b>{{x.title}}:</b> <i>{{x.authors}}</i>, In {{x.journal}}
             </a>
           </div>
