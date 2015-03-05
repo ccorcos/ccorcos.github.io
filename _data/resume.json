@@ -128,7 +128,7 @@
     "title": "<a href='/projects/2015/01/05/guitar-tuner.html'>Web Audio Guitar Tuner</a>",
     "when": "January 2015",
     "notes": [
-      "Built a guitar tuner in your browser using the the Web Audio API",
+      "Built a guitar tuner in your browser using the the Web Audio API.",
     ]
   },{
     "title": "<a href='/projects/2013/10/10/facebook-network.html'>D3 Network Visualization</a>",

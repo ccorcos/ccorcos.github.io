@@ -21,3 +21,6 @@ sass:
 
 # Syntax highlighting
 highlighter: pygments
+
+gems:
+  - jekyll-redirect-from

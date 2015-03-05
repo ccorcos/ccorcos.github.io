@@ -26,3 +26,5 @@ projects:
 
 
 sudo gem install sass
+
+gem install jekyll-redirect-from
