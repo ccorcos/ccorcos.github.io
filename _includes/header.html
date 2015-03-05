@@ -5,7 +5,7 @@
         {% for p in site.pages %}
         {% if p.title %}
           <div class="di prm">
-            <a class="link
+            <a class="link no-under
               {% if p.url == page.url %}
                 b
               {% endif %}
@@ -23,21 +23,21 @@
         {% endfor %}
       </div>
       <h1 class="normal plm">
-        <a class="link {% if '/' == page.url %} b {% endif %}" href="{{site.baseurl}}/">{{ site.title }}</a>
+        <a class="link no-under {% if '/' == page.url %} b {% endif %}" href="{{site.baseurl}}/">{{ site.title }}</a>
       </h1>
     </div>
   </div>
 
   <div class="wi-100 mw7 center db ptl mobile">
     <h1 class="normal tc">
-      <a class="link {% if '/' == page.url %} b {% endif %}" href="{{site.baseurl}}/">{{ site.title }}</a>
+      <a class="link no-under {% if '/' == page.url %} b {% endif %}" href="{{site.baseurl}}/">{{ site.title }}</a>
     </h1>
     <div class="db tc pbl">
       <div class="db ptm">
         {% for p in site.pages %}
         {% if p.title %}
         <div class="di prm plm">
-          <a class="link
+          <a class="link no-under
           {% if p.url == page.url %}
           b
           {% endif %}

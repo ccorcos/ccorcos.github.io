@@ -5,6 +5,11 @@ permalink: /blog/
 ---
 
 <div class="wi-100 pls prs mw65 center db ptx">
+
+  <div class="tc">
+    I don't write about my feelings enough. I should start doing this...
+  </div>
+  
   {% for post in site.posts %}
   {% if post.categories contains 'blog' %}
 
@@ -13,7 +18,7 @@ permalink: /blog/
       <span class="f5 gray">{{ post.date | date: "%b %-d, %Y" }}</span>
     </div>
     <div class="">
-      <a class="f4 link underline-hover" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="f4 link no-under underline-hover" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </div>
   </div>
 
