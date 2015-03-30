@@ -30,3 +30,4 @@ And here's a before/after pic.
 
 I've got to say, there were many moments when we thought this wasn't going to turn out well. If you zoom in and focus only on the lips or the fingers, you realize how weird this image is. But when you step away, it all looks great.
 
+And, by the way, my friend [Amanda Lipp](http://www.amandalipp.com/crayon-art) does art as well. Go check out her crayon art.
