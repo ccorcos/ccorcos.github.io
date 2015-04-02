@@ -1,0 +1,138 @@
+---
+layout: blank
+permalink: /resume4pdf/
+---
+
+<!-- something safe to turn into a printable pdf -->
+
+<div class="resume">
+  <div class="contact">
+    <div class="inner">
+      <div class="name"><a href="#">{{site.data.resume.name}}</a></div>
+    </div>
+  </div>
+  <div class="rest">
+    <div id="info" class="section">
+      <div class="header"><a href="#info">Info</a></div>
+      <div class="content">
+        <div class="email">{{site.data.resume.email}}</div>
+        <div class="phone">{{site.data.resume.phone}}</div>
+        <div class="address">{{site.data.resume.address}}</div>
+        <div class="website">{{site.data.resume.website}}</div>
+        <div class="github">https://github.com/{{site.data.resume.github}}</div>
+      </div>
+    </div>
+    <div id="education" class="section">
+      <div class="header"><a href="#education">Education</a></div>
+      <div class="content">
+        {% for x in site.data.resume.education %}
+          <div class="school content-item">
+            <div class="title">{{x.school}}</div>
+            <div class="subtitle">{{x.degree}}</div>
+            <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
+            <div class="gpa">GPA: {{x.gpa}}</div>
+            {% if x.notes %}
+              <ul class="notes">
+                {% for note in x.notes %}
+                  <li class="note">{{note}}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+            {% if x.courses %}
+              <div class="courses-header">Courses</div>
+              <ul class="courses">
+                {% for course in x.courses %}
+                  <li class="course">{{course}}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div id="publications" class="section">
+      <div class="header"><a href="#publications">Publications</a></div>
+      <div class="content">
+        {% for x in site.data.resume.publications %}
+          <div class="pub">
+            <a href="{{x.url}}">
+              <b>{{x.title}}:</b> <i>{{x.authors}}</i>, In {{x.journal}}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div id="professional" class="section">
+      <div class="header"><a href="#professional">Professional</a></div>
+      <div class="content">
+        {% for x in site.data.resume.professional %}
+          <div class="job content-item">
+            <div class="title">{{x.institution}}</div>
+            <div class="subtitle">{{x.title}}</div>
+            <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
+            {% if x.notes %}
+              <ul class="notes">
+                {% for note in x.notes %}
+                  <li class="note">{{note}}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>  
+    </div>
+
+    <div id="research" class="section">
+      <div class="header"><a href="#research">Research</a></div>
+      <div class="content">
+        {% for x in site.data.resume.research %}
+          <div class="job content-item">
+            <div class="title">{{x.institution}}</div>
+            <div class="subtitle">{{x.title}}</div>
+            <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
+            {% if x.notes %}
+              <ul class="notes">
+                {% for note in x.notes %}
+                  <li class="note">{{note}}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>  
+    </div>
+    <div id="projects" class="section">
+      <div class="header"><a href="#projects">Projects</a></div>
+      <div class="content">
+        {% for x in site.data.resume.projects %}
+          <div class="proj content-item">
+            <div class="title">{{x.title}}</div>
+            <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
+            {% if x.notes %}
+              <ul class="notes">
+                {% for note in x.notes %}
+                  <li class="note">{{note}}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>  
+    </div>
+    <div id="skills" class="section">
+      <div class="header"><a href="#skills">Skills</a></div>
+      <div class="content">
+        <ul>
+        {% for skill in site.data.resume.skills %}
+          <li>{{skill}}</li>
+        {% endfor %}
+        </ul>
+      </div>  
+    </div>
+  </div>
+</div>
+
+
+<!-- education location and date-->
+<!-- permalink -->
