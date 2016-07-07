@@ -6,6 +6,7 @@ permalink: /resume/
 <!-- redirect_from: "/files/resume.pdf" -->
 
 <div class="resume">
+
   <div class="contact">
     <div class="inner">
       <div class="name"><a href="#">{{site.data.resume.name}}</a></div>
@@ -24,10 +25,11 @@ permalink: /resume/
         </a>        <a class="link no-under" href="https://github.com/{{site.data.resume.github}}">
           <span class="entypo-social github mls mrs"></span>
         </a>
-        
+
       </div>
     </div>
   </div>
+
   <div class="rest">
     <div id="education" class="section">
       <div class="header"><a href="#education">Education</a></div>
@@ -57,6 +59,27 @@ permalink: /resume/
         {% endfor %}
       </div>
     </div>
+
+    <div id="research" class="section">
+      <div class="header"><a href="#research">Research</a></div>
+      <div class="content">
+        {% for x in site.data.resume.research %}
+          <div class="job content-item">
+            <div class="title">{{x.institution}}</div>
+            <div class="subtitle">{{x.title}}</div>
+            <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
+            {% if x.notes %}
+              <ul class="notes">
+                {% for note in x.notes %}
+                  <li class="note">{{note}}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
     <div id="publications" class="section">
       <div class="header"><a href="#publications">Publications</a></div>
       <div class="content">
@@ -87,28 +110,22 @@ permalink: /resume/
             {% endif %}
           </div>
         {% endfor %}
-      </div>  
+      </div>
     </div>
 
-    <div id="research" class="section">
-      <div class="header"><a href="#research">Research</a></div>
+    <div id="writing" class="section">
+      <div class="header"><a href="#writing">Writing</a></div>
       <div class="content">
-        {% for x in site.data.resume.research %}
-          <div class="job content-item">
-            <div class="title">{{x.institution}}</div>
-            <div class="subtitle">{{x.title}}</div>
-            <div class="whenwhere"><div class="where">{{x.where}}</div><div class="when">{{x.when}}</div></div>
-            {% if x.notes %}
-              <ul class="notes">
-                {% for note in x.notes %}
-                  <li class="note">{{note}}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>  
+        <ul class="articles">
+          {% for x in site.data.resume.writing %}
+            <li class="article">
+              <a href="{{x.url}}">{{x.title}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
+
     <div id="projects" class="section">
       <div class="header"><a href="#projects">Projects</a></div>
       <div class="content">
@@ -125,8 +142,9 @@ permalink: /resume/
             {% endif %}
           </div>
         {% endfor %}
-      </div>  
+      </div>
     </div>
+
     <div id="skills" class="section">
       <div class="header"><a href="#skills">Skills</a></div>
       <div class="content">
@@ -135,9 +153,10 @@ permalink: /resume/
           <li>{{skill}}</li>
         {% endfor %}
         </ul>
-      </div>  
+      </div>
     </div>
   </div>
+
 </div>
 
 

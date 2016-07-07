@@ -51,6 +51,16 @@
     "url": "/img/ior-iros2014.pdf"
   }],
   "professional": [{
+    "institution": "<a href='https://www.affirm.com'>Affirm Inc.</a>",
+    "title": "Software Developer",
+    "where": "San Francisco, CA",
+    "when": "August 2015 - Present",
+    "notes": [
+      "Full stack engineer with a focus on frontend web development.",
+      "Rebuild the web build system twice.",
+      "Built an internal tool for designing emails",
+    ]
+  }, {
     "institution": "SpaceX",
     "title": "Avionics Intern",
     "where": "Hawthorne, CA",
@@ -89,6 +99,15 @@
     ]
   }],
   "projects": [{
+    "title": "<a href='https://medium.com/@chetcorcos/shindig-an-event-discovery-app-built-with-meteor-js-react-js-and-neo4j-602afb483ae6'>Shindig &mdash; an event discovery app</a>",
+    "where": "San Francisco, CA",
+    "when": "Summer 2015",
+    "notes": [
+      "Built with React, Meteor.js, and Neo4j on top of the Facebook API.",
+      "Developed and released a responsive website, Android app, and iOS app (<a href='https://github.com/ccorcos/shindig'>code</a>).",
+      "Gave a <a href='https://neo4j.com/blog/mongodb-docker-graphconnect-lightning-talks/'>lightning talk at GraphConnect 2015</a>."
+    ]
+  },{
     "title": "<a href='/projects/2008/09/01/electric-truck.html'>Electric Truck Conversion</a>",
     "where": "Fair Oaks, CA",
     "when": "Summer 2008",
@@ -111,7 +130,7 @@
     "notes": [
       "Designed and built a Cordova iPhone app with Meteor.",
       "Displays the dining hall menus for the Claremont Colleges."
-    ] 
+    ]
   },{
     "title": "<a href='/projects/2014/02/22/rsa-tutorial.html'>RSA Encryption Demo</a>",
     "when": "February 2014",
@@ -137,7 +156,7 @@
     "notes": [
       "Build a reactive Force Layout visualization with Meteor.",
       "Downloaded and visualized my facebook social graph."
-    ]  
+    ]
   },{
     "title": "<a href='/projects/2015/02/07/observable-streams.html'>Observable Streams Meteor Package</a>",
     "when": "February 2015",
@@ -162,8 +181,26 @@
     "notes": [
       "<a href='/projects/2007/09/01/1965-mailibu.html'>Restored a 1965 Chevrolet Malibu for my first car with my father.</a>",
       "<a href='/projects/2010/01/01/1971-blazer.html'>Restored a 1971 Chevrolet Blaze with my father during winter break.</a>"
-    ]  
+    ]
   }],
+  "writing": [
+    {
+      "url": "https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504#.mxumvmdeh",
+      "title": "Functional Programming for JavaScript People"
+    },
+    {
+      "url": "https://medium.com/@chetcorcos/elmish-functional-programming-in-javascript-50995f1d4b9e",
+      "title": "Elmish: Functional Programming in JavaScript"
+    },
+    {
+      "url": "https://medium.com/@chetcorcos/shindig-an-event-discovery-app-built-with-meteor-js-react-js-and-neo4j-602afb483ae6#.4t261hhqr",
+      "title": "Shindig: An event discovery app built with Meteor.js, React.js, and Neo4j"
+    },
+    {
+      "url": "https://medium.com/@chetcorcos/electron-dev-tool-13a4b4b3b0b#.y7eqks26m",
+      "title": "Electron Dev Tool"
+    }
+  ],
   "skills": [
     "Python (Theano, Numpy, iPython)",
     "JavaScript (Meteor.js, Node.js, d3.js, React.js, Cordova, Coffeescript)",

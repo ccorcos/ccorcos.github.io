@@ -52,7 +52,7 @@ $headerIconHeight: 50px;
           color: #999999; }
 
         font-size: 50px;
-        font-weight: 100;   
+        font-weight: 100;
         position: absolute;
         bottom: 0;
         left: $pad;
@@ -65,7 +65,7 @@ $headerIconHeight: 50px;
         position: absolute;
         right: $pad;
         bottom: $pad;
-        
+
         @media screen and (max-width: $mobileBreak) {
           left: $pad;
         }
@@ -79,7 +79,7 @@ $headerIconHeight: 50px;
 
       }
     }
-    
+
   }
   .section {
     max-width: 1000px;
@@ -116,7 +116,7 @@ $headerIconHeight: 50px;
         }
       }
       @media screen and (max-width: $tabletBreak) {
-        width: 100%; 
+        width: 100%;
       }
 
       .title {
@@ -125,7 +125,7 @@ $headerIconHeight: 50px;
       }
 
       .subtitle {
-        font-style: italic; 
+        font-style: italic;
         font-size: 12px;
         // display: inline-block;
         // padding-left: 10px;
@@ -155,7 +155,7 @@ $headerIconHeight: 50px;
         text-align: left;
       }
       .when {
-        // font-style: italic; 
+        // font-style: italic;
         font-size: 12px;
       }
     }
@@ -175,7 +175,7 @@ $headerIconHeight: 50px;
   }
 }
 
-#skills {
+#skills, #writing {
   .content {
     ul {
       margin-top: 0;
