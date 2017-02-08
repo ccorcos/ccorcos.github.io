@@ -7,10 +7,6 @@
 responsive panoramas.
 overflow hidden and dont stretch but center...
 
-
-`bundle exec jekyll serve`
-`gulp compress`
-
 mac setup, bitcoin wallet, multibit, 1password, jrnl, iphoto, itunes
 linux setup with elementary os
 
