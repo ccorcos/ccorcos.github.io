@@ -61,7 +61,7 @@
       "Modernized from Angular-CoffeeScript-Browserify-Grunt to React-Redux-Babel-Webpack",
       "Built an <a href='/files/pigeon.png'>internal tool for designing and compiling email templates</a>.",
       "Built a <a href='/files/styleguide.png'>Styleguide and a reusable React component library</a>.",
-      "Built an <a href='/files/crm'>internal loan servicing tool for call center agents</a>.",
+      "Built an <a href='/files/crm.png'>internal loan servicing tool for call center agents</a>.",
       "Built a DSL for specifying fraud policies that can be compiled and injected at runtime.",
     ]
   }, {
@@ -188,6 +188,18 @@
     ]
   }],
   "writing": [
+    {
+      "url": "https://medium.freecodecamp.com/how-to-hack-your-friends-eef055389344#.pk39d6d7j",
+      "title": "How to hack your friends"
+    },
+    {
+      "url": "https://tech.affirm.com/redux-patterns-and-anti-patterns-7d80ef3d53bc#.mp9dlejiy",
+      "title": "Redux Patterns and Anti-Patterns"
+    },
+    {
+      "url": "https://medium.com/@chetcorcos/simple-backups-with-rsync-b97535ca1703#.3ac9a0qd8",
+      "title": "Simple Backups with Rsync"
+    },
     {
       "url": "https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504#.mxumvmdeh",
       "title": "Functional Programming for JavaScript People"
