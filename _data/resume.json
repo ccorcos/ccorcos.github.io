@@ -162,12 +162,6 @@
       "Downloaded and visualized my facebook social graph."
     ]
   },{
-    "title": "<a href='/projects/2015/02/07/observable-streams.html'>Observable Streams Meteor Package</a>",
-    "when": "February 2015",
-    "notes": [
-      "Implemented an observable streams library using Meteor's reactive library, Tracker."
-    ]
-  },{
     "title": "<a href='https://www.youtube.com/watch?v=zAJ6muAZdX4&feature=player_embedded'>OpenCV Eye Tracker</a>",
     "when": "Spring 2011",
     "notes": [
@@ -218,21 +212,16 @@
     }
   ],
   "skills": [
-    "Python (Theano, Numpy, iPython)",
-    "JavaScript (Meteor.js, Node.js, d3.js, React.js, Cordova, Coffeescript)",
-    "MATLAB",
-    "C",
+    "JavaScript (React, Redux, Webpack, Babel, Meteor, Node, d3, Coffeescript, FlowType)",
+    "Python (Theano, Numpy, iPython, TensorFlow)",
+    "C (Arduino)",
     "C++ (OpenCV)",
-    "CAD (NX 7.5, OpenSCAD)",
-    "iOS (Objective-C, Swift)",
-    "Lisp",
+    "Clojure (Overtone, ClojureScript)",
+    "CAD (OpenSCAD, NX 7.5)",
+    "iOS (Objective-C, Swift, React Native)",
     "Prolog",
-    "Java",
     "System Verilog",
     "3D Printing",
-    "Machine Shop",
-  ],
+    "Machine Shop"
+  ]
 }
-
-// missing: topographic map printing
-// taxes app, pickups app, stdinla app
