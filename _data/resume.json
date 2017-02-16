@@ -51,18 +51,21 @@
     "url": "/img/ior-iros2014.pdf"
   }],
   "professional": [{
-    "institution": "<a href='https://www.affirm.com'>Affirm Inc.</a>",
+    "institution": "<a href='https://www.affirm.com'>Affirm</a>",
     "title": "Software Developer",
     "where": "San Francisco, CA",
     "when": "August 2015 - Present",
     "notes": [
       "Full stack engineer with a focus on frontend web development.",
-      "Built the entire frontend build system.",
-      "Built an internal loan servicing tool with React and Redux.",
-      "Built an internal tool for designing email templates.",
+      "Built the entire frontend build system and asset pipeline.",
+      "Modernized from Angular-CoffeeScript-Browserify-Grunt to React-Redux-Babel-Webpack",
+      "Built an <a href='/files/pigeon.png'>internal tool for designing and compiling email templates</a>.",
+      "Built a <a href='/files/styleguide.png'>Styleguide and a reusable React component library</a>.",
+      "Built an <a href='/files/crm'>internal loan servicing tool for call center agents</a>.",
+      "Built a DSL for specifying fraud policies that can be compiled and injected at runtime.",
     ]
   }, {
-    "institution": "SpaceX",
+    "institution": "<a href='http://www.spacex.com/'>SpaceX</a>",
     "title": "Avionics Intern",
     "where": "Hawthorne, CA",
     "when": "Summer 2013",
