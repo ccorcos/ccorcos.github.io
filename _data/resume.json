@@ -51,18 +51,21 @@
     "url": "/img/ior-iros2014.pdf"
   }],
   "professional": [{
-    "institution": "<a href='https://www.affirm.com'>Affirm Inc.</a>",
+    "institution": "<a href='https://www.affirm.com'>Affirm</a>",
     "title": "Software Developer",
     "where": "San Francisco, CA",
     "when": "August 2015 - Present",
     "notes": [
       "Full stack engineer with a focus on frontend web development.",
-      "Built the entire frontend build system.",
-      "Built an internal loan servicing tool with React and Redux.",
-      "Built an internal tool for designing email templates.",
+      "Built the entire frontend build system and asset pipeline.",
+      "Modernized from Angular-CoffeeScript-Browserify-Grunt to React-Redux-Babel-Webpack",
+      "Built an <a href='/files/pigeon.png'>internal tool for designing and compiling email templates</a>.",
+      "Built a <a href='/files/styleguide.png'>Styleguide and a reusable React component library</a>.",
+      "Built an <a href='/files/crm.png'>internal loan servicing tool for call center agents</a>.",
+      "Built a DSL for specifying fraud policies that can be compiled and injected at runtime.",
     ]
   }, {
-    "institution": "SpaceX",
+    "institution": "<a href='http://www.spacex.com/'>SpaceX</a>",
     "title": "Avionics Intern",
     "where": "Hawthorne, CA",
     "when": "Summer 2013",
@@ -159,12 +162,6 @@
       "Downloaded and visualized my facebook social graph."
     ]
   },{
-    "title": "<a href='/projects/2015/02/07/observable-streams.html'>Observable Streams Meteor Package</a>",
-    "when": "February 2015",
-    "notes": [
-      "Implemented an observable streams library using Meteor's reactive library, Tracker."
-    ]
-  },{
     "title": "<a href='https://www.youtube.com/watch?v=zAJ6muAZdX4&feature=player_embedded'>OpenCV Eye Tracker</a>",
     "when": "Spring 2011",
     "notes": [
@@ -186,6 +183,18 @@
   }],
   "writing": [
     {
+      "url": "https://medium.freecodecamp.com/how-to-hack-your-friends-eef055389344#.pk39d6d7j",
+      "title": "How to hack your friends"
+    },
+    {
+      "url": "https://tech.affirm.com/redux-patterns-and-anti-patterns-7d80ef3d53bc#.mp9dlejiy",
+      "title": "Redux Patterns and Anti-Patterns"
+    },
+    {
+      "url": "https://medium.com/@chetcorcos/simple-backups-with-rsync-b97535ca1703#.3ac9a0qd8",
+      "title": "Simple Backups with Rsync"
+    },
+    {
       "url": "https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504#.mxumvmdeh",
       "title": "Functional Programming for JavaScript People"
     },
@@ -203,21 +212,16 @@
     }
   ],
   "skills": [
-    "Python (Theano, Numpy, iPython)",
-    "JavaScript (Meteor.js, Node.js, d3.js, React.js, Cordova, Coffeescript)",
-    "MATLAB",
-    "C",
+    "JavaScript (React, Redux, Webpack, Babel, Meteor, Node, d3, Coffeescript, FlowType)",
+    "Python (Theano, Numpy, iPython, TensorFlow)",
+    "C (Arduino)",
     "C++ (OpenCV)",
-    "CAD (NX 7.5, OpenSCAD)",
-    "iOS (Objective-C, Swift)",
-    "Lisp",
+    "Clojure (Overtone, ClojureScript)",
+    "CAD (OpenSCAD, NX 7.5)",
+    "iOS (Objective-C, Swift, React Native)",
     "Prolog",
-    "Java",
     "System Verilog",
     "3D Printing",
-    "Machine Shop",
-  ],
+    "Machine Shop"
+  ]
 }
-
-// missing: topographic map printing
-// taxes app, pickups app, stdinla app
